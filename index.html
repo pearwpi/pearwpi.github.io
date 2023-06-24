@@ -37,54 +37,132 @@
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		    <!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171009851-1"></script>
-			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-
-			  gtag('config', 'UA-171009851-1');
-			</script>
 		</head>
 		<body>	
 		<!-- EDIT ME -->
-			<header id="header">
+			<!-- <header id="header">
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
 				        <a href="index.html"><img src="img/logos/1.png" width="48px" alt="" title=""></a>
 				      </div>
-				      <nav id="nav-menu-container">
+					  	<ul class="nav-link">
+					  	<li  class="nav-link"><a title="Home" href="index.html" style="position: relative; top: 0px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
+					    <li class="nav-link"><a class="nav-link" href="research.html">Research <i class="fa fa-angle-down"></i></a>
+					      <ul class="dropdown-menu">
+					        <li><a class="dropdown-item" href="research.html">Research Areas</a></li>
+					        <li><a class="dropdown-item" href="#">Softwares/Datasets/Tutorials</a></li>
+					        <li><a class="dropdown-item" href="#">Publications</a></li>
+					        <li><a class="dropdown-item" href="#">Research Labs/Facilities</a></li>
+					      </ul>
+					    </li>
+					    	<li  class="nav-link"><a title="Teaching" href="teaching.html" class="nav-link">Teaching</a></li>
+					    	<li  class="nav-link"><a title="Media" href="teaching.html" class="nav-link">Media</a></li>
+					    	<li  class="nav-link"><a title="Openings" href="openings.html" class="nav-link">Openings</a></li>
+					    	<li  class="nav-link"><a title="Events" href="events.html" class="nav-link">Events</a></li>
+					  </ul>
+					</div>
+				</div>
+			</header> -->
+
+			<header id="header">
+        		<div class="container main-menu">
+        			<div class="row align-items-center justify-content-between d-flex">
+        		      <div id="logo">
+        		        <a href="index.html"><img src="img/logos/1.png" width="48px" alt="" title=""></a>
+        		      </div>
+        		      <nav id="nav-menu-container">
+        		        <ul class="nav-menu">
+        		          <li  class="nav-link"><a title="Home" href="index.html" style="position: relative; top: 0px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
+        		          <li class="nav-link"><a class="nav-link" href="research.html">Research </i></a>
+					      <ul class="dropdown-menu">
+					        <li><a href="research.html">Research Areas</a></li>
+					        <li><a href="#">Softwares/Datasets</a></li>
+					        <li><a href="#">Publications</a></li>
+					        <li><a href="#">Labs/Facilities</a></li>
+					      </ul>
+        		          <li  class="nav-link"><a title="Teaching" href="teaching.html" class="nav-link">Teaching</a></li>
+					    	<li  class="nav-link"><a title="Media" href="teaching.html" class="nav-link">Media</a></li>
+					    	<li  class="nav-link"><a title="Openings" href="openings.html" class="nav-link">Openings</a></li>
+					    	<li  class="nav-link"><a title="Events" href="events.html" class="nav-link">Events</a></li>		          	        
+        		        </ul>
+        		      </nav><!-- #nav-menu-container -->		    		
+        			</div>
+        		</div>
+        	</header>
+
+					<!-- TODO: Make menu mobile friendly with submenus 
+						 TODO: Make menu text uppercase and white 
+						 TODO: Change color of dropdown background -->
+
+				      <!-- <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li><a href="index.html">Home</a></li>
+				          <li><a title="Home" href="index.html" class="home" style="position: relative; top: -6px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
+				          <div class="nav-menu-container">
 				          <li><a href="about.html">About</a></li>
 				          <li><a href="research.html">Research</a></li>
 				          <li><a href="tutorials.html">Tutorials</a></li>
 				          <li><a href="teaching.html">Teaching</a></li>
-				           <li><a href="services.html">Services</a></li>			          					          		          
+				          <li><a href="services.html">Services</a></li>			          					          		          
 				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
+				      </nav>    		
 					</div>
-				</div>
-			</header><!-- #header -->	
+				</div> -->
+			<!-- #header -->	
 			<!-- EDIT ME -->
 		  
 			<!-- start banner Area -->
 			<section class="banner-area">
-				<div class="container">
-					<div class="row fullscreen align-items-center justify-content-between">
-						<div class ="video-container">
-						<video autoplay="true" loop="true" muted="true" plays-inline="">
-							<source src="img/Website.mp4" type="video/mp4">
-						</video>
-					</div>
+				    <div class="container-full-width">
+				    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				      <ol class="carousel-indicators">
+				        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#myCarousel" data-slide-to="1"></li>
+				        <li data-target="#myCarousel" data-slide-to="2"></li>
+				      </ol>
+				      
+				      <div class="carousel-inner">
+				        <div class="carousel-item active">
+				          <img src="image1.jpg" alt="Image 1">
+				          <div class="carousel-caption">
+					        <h2 style="background-color: #f1f1f1">Overlay Text 1</h2>
+					        <p>Description 1</p>
+					      </div>
+				        </div>
+				        <div class="carousel-item">
+				          <img src="image2.jpg" alt="Image 2">
+				          <div class="carousel-caption">
+					        <h2>Overlay Text 2</h2>
+					        <p>Description 2</p>
+					      </div>
+				        </div>
+				        <div class="carousel-item">
+				          <img src="image3.jpg" alt="Image 3">
+				          <div class="carousel-caption">
+					        <h2>Overlay Text 3</h2>
+					        <p>Description 3</p>
+					      </div>
+				        </div>
+				      </div>
+				      
+				      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+				        <span class="carousel-control-prev-icon"></span>
+				      </a>
+				      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+				        <span class="carousel-control-next-icon"></span>
+				      </a>
+				    </div>
+				  </div>
+
+
 						<div class="col-lg-6 col-md-6 banner-left">
-							<h1 style="z-index:10">Nitin J. Sanket</h1>
-							<h2 style="z-index:10">Assistant Professor <img src="img/logos/WPILogo.png" height="48px"></h2>
-						</div>
+							<h1 style="z-index:10; margin-left:10vw; margin-top:-20vw">Nitin J. Sanket</h1>
+							<h2 style="z-index:10; margin-left:10vw;">Assistant Professor <img src="img/logos/WPILogo.png" height="48px"></h2>
+						</div> 
 						<!-- <div class="logo-background"> -->
 						<!-- <div class = "banner-left"> -->
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-4">
-						<div class = "banner-social">
+						<!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-4">
+						<div class = "banner-social" style="margin-left:38vw; margin-top:10vw">
 							<div class="logo-background">
 						  <a title="Google Scholar" href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en&oi=ao" class="ai"><i class="ai ai-google-scholar"></i></a>
 						  <a title="Github" href="http://github.com/nitinjsanket/" class="github"><i class="fa fa-github"></i></a>
@@ -97,50 +175,10 @@
 				          <a title="Photography" href="http://instagram.com/njsphoto" class="camera"><i class="fa fa-camera"></i></a>
 				          <a title="Facebook" href="http://facebook.com/nitin.jsanket" class="facebook"><i class="fa fa-facebook-square"></i></a>
 				      </div>
-				  </div>
-				  </div>
-						<!-- </div> -->
+				  	</div>
+				  	</div> -->
 					</div>
-				</div>					
 			</section>
-			<!-- <section class="banner-area">
-				<div class="container">
-					<div class="row fullscreen align-items-center justify-content-between">
-						<div class="col-lg-6 col-md-6 banner-left">
-							<h6>This is me</h6>
-							<h1>Philip Gilbert</h1>
-							<p>
-								You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.
-							</p>
-							<a href="#" class="primary-btn text-uppercase">discover now</a>
-						</div>
-						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-							<img class="img-fluid" src="img/hero-img.png" alt="">
-						</div>
-					</div>
-				</div>					
-			</section>
- -->
-			<!-- <section>
-				<div class="heading">
-					<h1> Nitin J. Sanket </h1>
-					<h3>Roboticist </h3>
-					<h4>
-				  <div class="logo-background">
-				  <a title="Google Scholar" href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en&oi=ao" class="ai"><i class="ai ai-google-scholar"></i></a>&nbsp;
-				  <a title="Github" href="http://github.com/nitinjsanket/" class="github"><i class="fa fa-github"></i></a>&nbsp;
-				  <a title="Email" href="https://mailhide.io/e/5wgeh" onclick="mailhidepopup=window.open('https://mailhide.io/e/5wgeh','mailhidepopup','width=580,height=635'); return false;"><i class="fa fa-envelope"></i></a> 
-		          <a title="Teaching on YouTube" href="http://youtube.com/prgumdteaching" class="youtube"><i class="fa fa-youtube-square"></i></a>&nbsp;
-		          <a title="LinkedIn" href="https://www.linkedin.com/in/nitinjsanket/" class="linkedin"><i class="fa fa-linkedin-square"></i></a>&nbsp;
-		          <a title="Twitter" href="http://twitter.com/nitinjsanket" class="twitter"><i class="fa fa-twitter-square"></i></a>&nbsp;
-		          <a title="500px" href="https://500px.com/nitinjsanket" class="500px"><i class="fa fa-500px"></i></a>&nbsp;
-		          <a title="Instagram" href="http://instagram.com/firenitin" class="instagram"><i class="fa fa-instagram"></i></a>&nbsp;
-		          <a title="Photography" href="http://instagram.com/njsphoto" class="camera"><i class="fa fa-camera"></i></a>&nbsp;
-		          <a title="Facebook" href="http://facebook.com//nitin.jsanket" class="facebook"><i class="fa fa-facebook-square"></i></a></h4>
-
-		      	  </div>
-				</div>
-			</section> -->
 			<!-- End banner Area -->
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
