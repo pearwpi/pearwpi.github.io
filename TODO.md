@@ -4,6 +4,14 @@ TODO:
 - Fix Nitin's website Teaching
 - Update Nitin's website research olive paper
 - Script for Making Images exactly 3:1
+- Update Header and Footer
+- Update Sponsors
+- Update Media
+- Update Events
+- Make Areas Page
+- Make Softwares/Datasets Page
+- Link to Publications page
+- Make Labs/Facilities Page
 
 # Alumni
 

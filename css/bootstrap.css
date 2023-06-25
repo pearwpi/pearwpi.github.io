@@ -667,6 +667,13 @@ pre code {
   margin-left: auto;
 }
 
+.rowunmod {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -4129,6 +4136,15 @@ tbody.collapse.show {
     .title a:hover {
       color: var(--themecolor); /* Set the hover font color */
     }
+
+
+.black-links a {
+    color: #000 !important;
+  }
+
+  .black-links a:hover {
+    color: var(--themecolor) !important;
+  }
 
 .card {
   position: relative;
