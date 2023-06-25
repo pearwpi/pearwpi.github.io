@@ -670,8 +670,37 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -30%;
+  margin-left: -30%;
+}
+
+
+@media (max-width: 1850px) {
+.row {
+    margin-right: -25%;
+    margin-left: -25%;
+  }
+}
+
+@media (max-width: 1700px) {
+.row {
+    margin-right: -20%;
+    margin-left: -20%;
+  }
+}
+
+@media (max-width: 1600px) {
+.row {
+    margin-right: -15%;
+    margin-left: -15%;
+  }
+}
+
+@media (max-width: 1470px) {
+.row {
+    margin-right: -4%;
+    margin-left: -4%;
+  }
 }
 
 .no-gutters {
@@ -4092,7 +4121,7 @@ tbody.collapse.show {
 
 
   .title a {
-      color: #000; /* Set the initial font color */
+      color: var(--themecolor); /* Set the initial font color */
       text-decoration: none; /* Remove the default underline */
     }
     
@@ -5602,9 +5631,18 @@ button.close {
   padding-bottom: 0px;
   color: #fff;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
+
+.carousel-caption a{
+  color: #fff;
+}
+
+.carousel-caption a:hover {
+  color: var(--themecolor);
+}
+
 
 .carousel-caption h2 {
   color: #fff;

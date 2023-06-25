@@ -8,15 +8,15 @@ import glob
 def main():
     BasePath = './'
     Files = glob.glob(BasePath + '*.html')
-    CopyFileName = 'CopyFromFooter.html'
-    Keyword = 'EDIT FOOT'
+    CopyFileName = 'CopySiteTitle.html'
+    Keyword = 'Site Title'
 
     for FileName in Files:
         print(FileName)
         if('Edit' in FileName or FileName == CopyFileName):
             continue
         else:
-            # FileName = 'index.html'
+            FileName = 'indexTest.html'
             if(not (os.path.isdir(BasePath +'Bak/'))):
                os.makedirs(BasePath + 'Bak/')
 
