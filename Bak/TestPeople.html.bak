@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>People Table</title>
+  <style>
+    .table {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .table img {
+      max-width: 100px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>People Table</h1>
+    <table class="table">
+      <tbody>
+        <tr>
+          <td><img src="img/teaching/rbe549/spring2023/Ramana.jpg" alt="Person 1"></td>
+          <td><img src="img/teaching/rbe549/spring2023/Ramana.jpg" alt="Person 2"></td>
+          <td><img src="img/teaching/rbe549/spring2023/Ramana.jpg" alt="Person 3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
+
+
+

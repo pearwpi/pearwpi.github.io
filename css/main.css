@@ -2340,7 +2340,7 @@ color: var(--linkhover);
   margin: 22px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #fff;
+  background: rgba(0,0,0,0.9);
 }
 
 .nav-menu ul li {
@@ -2348,8 +2348,9 @@ color: var(--linkhover);
 }
 
 .nav-menu ul li a {
+  background-color: rgba(0,0,0,0.9);
   padding: 5px 10px;
-  color: #333;
+  color: #ddd;
   transition: 0.3s;
   display: block;
   font-size: 14px;
@@ -2501,10 +2502,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #008000;
 }
 
+
 .p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
-  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  /*background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);*/
+  background: rgba(255, 255, 255, 0.98);
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
@@ -2946,6 +2949,16 @@ color: var(--linkhover);
   }
 }
 
+.single-fact a {
+      color: #333; /* Set the initial font color */
+      text-decoration: none; /* Remove the default underline */
+    }
+    
+    /* Change the hover color for the <a> tag inside the single-fact class */
+    .single-fact a:hover {
+      color: var(--themecolor); /* Set the hover font color */
+    }
+
 /*--------- End Facts Area -------------*/
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
@@ -3376,7 +3389,7 @@ color: var(--linkhover);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: .5;
+  opacity: .8;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -3859,8 +3872,8 @@ dl.accordion.time-line:before {
 }
 
 .services .icon-box:hover {
-  /*background: var(--themecolorrgba);
-  border-color: var(--themecolorrgba);*/
+  background: var(--themecolorrgba);
+  border-color: var(--themecolorrgba);
 }
 
 .services .icon-box:hover .icon {
@@ -3868,7 +3881,7 @@ dl.accordion.time-line:before {
 }
 
 .services .icon-box:hover .icon i {
-  /*color: var(--themecolor);*/
+  color: var(--themecolor);
 }
 
 .services .icon-box:hover .icon::before {

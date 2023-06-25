@@ -1,9 +1,15 @@
 TODO:
 - Add Custom path with ../ for inner folders
-- News section
-- Projects
-- Try multiple videos
-- Add google page views
+- Add google page views (https://clustrmaps.com/)
+- Change Nitin J. Sanket's Personal Website to <title>PeAR WPI</title>
+- Fix Nitin's website Teaching
+
+# Alumni
+## Masters
+- Shreyas
+- Radha
+- Avnish
+- Aniket
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171009851-1"></script>

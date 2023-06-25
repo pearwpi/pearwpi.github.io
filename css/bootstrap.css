@@ -4056,6 +4056,7 @@ tbody.collapse.show {
     z-index: 999;
     margin-top: -5px;
     min-width: 200px;
+    background-color: #f;
   }
 
   .nav-menu-container .nav-item:hover > .dropdown-menu,
@@ -4088,6 +4089,17 @@ tbody.collapse.show {
   .dropdown-menu li a:focus {
     color: var(--themecolor); /* Change the color for clicked submenu item */
   }
+
+
+  .title a {
+      color: #000; /* Set the initial font color */
+      text-decoration: none; /* Remove the default underline */
+    }
+    
+    /* Change the hover color for the <a> tag inside the title class */
+    .title a:hover {
+      color: var(--themecolor); /* Set the hover font color */
+    }
 
 .card {
   position: relative;
@@ -5583,13 +5595,19 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 40px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   color: #fff;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.carousel-caption h2 {
+  color: #fff;
 }
 
 .carousel-item img {
