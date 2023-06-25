@@ -14,7 +14,9 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Prof. Nitin J. Sanket's Personal Website</title>
+		<title>PeAR WPI</title>
+		<!-- Site Title -->
+		<!-- Site Title -->
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -87,31 +89,44 @@
 			    <div class="whole-wrap">
 				<div class="container">
 					<div class="section-top-border">
-						<div class="row">
+
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p">
+								<h3 class="mb-30">RBE595-F02-ST: Hands-On Autonomous Aerial Robotics</h3>
+								<p style="font-size: 16px"><b>Session:</b> Fall 2023</p>
+						        <p>This is an advanced course on autonomy stack for aerial robots. A unique aspect of this course is its hands-on aspect. Our goal is to train the students to develop real-time perception, planning, control and AI algorithms for the realization of autonomous aerial systems. The course follows a series of projects that will finally build upto an autonomous drone race on an obstacle course in which the students will compete.
+						    	</p><br>
+						        <h5> <a href="teaching/rbe595/fall2023.html"><i class="fa fa-globe"></i>&nbsp;Course Webpage&nbsp;&nbsp;</a><a href="https://www.wpi.edu/"><i class="fa fa-map-marker"></i>&nbsp;WPI&nbsp;&nbsp;</a></h5>
+							</div>
+							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
+								<img src="img/teaching/fire298.png" alt="" class="img-fluid" style="border-radius: 8%;">
+							</div>
+						</div>
+						<hr>
+
+						<div class="rowunmod">
 							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p">
 								<h3 class="mb-30">RBE/CS549: Computer Vision</h3>
-						        <h5><b>Instructor</b></h5>
-						        <p><b>Session:</b> Spring 2023</p>
+						        <p style="font-size: 16px"><b>Session:</b> Spring 2023</p>
 						        <p>This is an advanced course on graduate computer vision and computational photography. This course will explore image formation, image features, image segmentation, image stitching, image recognition, motion estimation, 3D point clouds and will touch upon basics of augmented reality. This course is heavily redesigned this time to showcase how to model classical 3D geometry problems using Deep Learning. </p><br>
 						        <h5> <a href="teaching/rbe549/spring2023.html"><i class="fa fa-globe"></i>&nbsp;Course Webpage&nbsp;&nbsp;</a><a href="https://www.wpi.edu/"><i class="fa fa-map-marker"></i>&nbsp;WPI&nbsp;&nbsp;</a></h5>
 							</div>
 							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
-								<img src="img/teaching/rbe549.png" alt="" class="img-fluid">
+								<img src="img/teaching/rbe549.png" alt="" class="img-fluid" style="border-radius: 8%;">
 							</div>
 						</div>
 
 						<hr>
 
-						<div class="row">
+						<div class="rowunmod">
 							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p">
 								<h3 class="mb-30">RBE/CS549: Computer Vision</h3>
-						        <h5><b>Instructor</b></h5>
-						        <p><b>Session:</b> Fall 2022</p>
+						        <p style="font-size: 16px"><b>Session:</b> Fall 2022</p>
 						        <p>This is an advanced course on graduate computer vision and computational photography. This course will explore image formation, image features, image segmentation, image stitching, image recognition, motion estimation, 3D point clouds and will touch upon basics of augmented reality. This course is heavily redesigned this time to showcase how to model classical 3D geometry problems using Deep Learning. </p><br>
 						        <h5> <a href="teaching/rbe549/fall2022.html"><i class="fa fa-globe"></i>&nbsp;Course Webpage&nbsp;&nbsp;</a><a href="https://www.wpi.edu/"><i class="fa fa-map-marker"></i>&nbsp;WPI&nbsp;&nbsp;</a></h5>
 							</div>
 							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
-								<img src="img/teaching/rbe549.png" alt="" class="img-fluid">
+								<img src="img/teaching/rbe549.png" alt="" class="img-fluid" style="border-radius: 8%;">
 							</div>
 						</div>
 						<hr>
@@ -121,39 +136,21 @@
 			<!-- End timeline Area -->
 
             <!-- EDIT FOOT -->
-            <!-- start footer Area -->
-            <footer class="footer-area section-gap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-                            <div class="single-footer-widget">
-                                <h4>Follow Me</h4>
-                                <p>Let us be social</p>
-                                <div class="footer-social d-flex align-items-center">
-                                  <a title="Google Scholar" href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en&oi=ao" style="padding-top: 8px" class="ai"><i class="ai ai-google-scholar"></i></a>&nbsp;
-								  <a title="Github" href="http://github.com/nitinjsanket/" class="github"><i class="fa fa-github"></i></a>&nbsp;
-						          <a title="Teaching on YouTube" href="http://youtube.com/prgumdteaching" class="youtube"><i class="fa fa-youtube-square"></i></a>&nbsp;
-						          <a title="LinkedIn" href="https://www.linkedin.com/in/nitinjsanket/" class="linkedin"><i class="fa fa-linkedin-square"></i></a>&nbsp;
-						          <a title="Twitter" href="http://twitter.com/nitinjsanket" class="twitter"><i class="fa fa-twitter-square"></i></a>&nbsp;
-						          <a title="500px" href="https://500px.com/nitinjsanket" class="500px"><i class="fa fa-500px"></i></a>&nbsp;
-						          <a title="Instagram" href="http://instagram.com/firenitin" class="instagram"><i class="fa fa-instagram"></i></a>&nbsp;
-						          <a title="Photography" href="http://instagram.com/njsphoto" class="camera"><i class="fa fa-camera"></i></a>&nbsp;
-						          <a title="Facebook" href="http://facebook.com//nitin.jsanket" class="facebook"><i class="fa fa-facebook-square"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- End footer Area -->		
-            <!-- EDIT FOOT -->	
+            	<!-- start footer Area -->
+            	            <section class="facts-area section-gap" id="facts-area"  style="background-color: rgba(255, 255, 255, 1.0); padding: 40px">
+            	                <div class="container">     
+            	                <div class="title text-center">
+            	                        <p> <a href="index.html"><img src="img/logos/1.png" width="128px" alt="" title=""></a><br><br>
+            	                            Perception and Autonomous Robotics Group <br>
+            	                            Worcester Polytechnic Institute <br>
+            	                            Copyright © 2023<br>
+            	                            <span style="font-size: 10px">Website based on <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+            	                        </p>
+            	                    </div>
+            	                </div>  
+            	            </section>  
+            	<!-- End footer Area -->            
+            	<!-- EDIT FOOT -->	
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/popper.min.js"></script>
