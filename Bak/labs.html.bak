@@ -57,7 +57,7 @@
         	              <li><a href="research.html">Research Areas</a></li>
         	              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
         	              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
-        	              <li><a href="labs.html">Research Labs And Facilities</a></li>
+        	              <li><a href="labs.html">Labs/Facilities</a></li>
         	            </ul>
         	          </li> 
         	          <li><a title="Teaching" href="teaching.html">Teaching</a></li>
@@ -68,14 +68,16 @@
         	        </nav><!-- #nav-menu-container -->                  
         	    </div>
         	</div>
-        	</header>          	<!-- EDIT ME -->
+        	</header> 
+        	<!-- End footer Area -->         
+        	<!-- EDIT ME -->
 
           <!-- Start home-about Area -->
 			<section class="sample-text-area">
 				<div class="container">
 					<div class="menu-content">
                     <div class="title text-center">
-                        <h1 class="mb-10">Openings</h1>
+                        <h1 class="mb-10">Research Labs And Facilities</h1>
                     </div>
                 </div>
 				</div>

@@ -41,9 +41,10 @@
 		<!-- EDIT ME -->
 			<header id="header">
 			<div class="container main-menu">
-			    <div class="row align-items-center justify-content-between d-flex">
+			    <div class="row align-items-center justify-content-between d-flex"> 
+			      <!--  style="margin-left: -36vh; margin-right: -36vh" -->
 			      <div id="logo">
-			        <a href="index.html"><img src="img/logos/1.png" width="48px" alt="" title=""></a>
+			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/1.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -51,8 +52,8 @@
 			          <li class="menu-has-children"><a title="Research" href="research.html">Research</a>
 			            <ul>
 			              <li><a href="research.html">Research Areas</a></li>
-			              <li><a href="softwares.html">Softwares/Datasets</a></li>
-			              <li><a href="publications.html">Publications</a></li>
+			              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
+			              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
 			              <li><a href="labs.html">Labs/Facilities</a></li>
 			            </ul>
 			          </li> 
@@ -64,7 +65,9 @@
 			        </nav><!-- #nav-menu-container -->                  
 			    </div>
 			</div>
-			</header>			</header>			<!-- End footer Area -->			<!-- EDIT ME -->
+			</header> 
+			<!-- End footer Area -->			
+			<!-- EDIT ME -->
 
 			<!-- Start home-about Area -->
 			<section class="home-about-area section-gap-top">

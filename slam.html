@@ -1,0 +1,253 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>PeAR WPI</title>
+		<!-- Site Title -->
+		<!-- Site Title -->
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">			
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">			
+			<link rel="stylesheet" href="css/jquery-ui.css">			
+			<link rel="stylesheet" href="css/main.css">
+			<link href="css/icofont/icofont.min.css" rel="stylesheet">
+		    <link href="css/remixicon/remixicon.css" rel="stylesheet">
+		    <link href="css/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+		    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+		    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		    <!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171009851-1"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-171009851-1');
+			</script>
+		</head>
+		<body>	
+		<!-- EDIT ME -->
+			<header id="header">
+			<div class="container main-menu">
+			    <div class="row align-items-center justify-content-between d-flex"> 
+			      <!--  style="margin-left: -36vh; margin-right: -36vh" -->
+			      <div id="logo">
+			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/1.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li><a title="Home" href="index.html" style="position: relative; top: -4px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
+			          <li class="menu-has-children"><a title="Research" href="research.html">Research</a>
+			            <ul>
+			              <li><a href="research.html">Research Areas</a></li>
+			              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
+			              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
+			              <li><a href="labs.html">Research Labs And Facilities</a></li>
+			            </ul>
+			          </li> 
+			          <li><a title="Teaching" href="teaching.html">Teaching</a></li>
+			         <li><a title="Media" href="media.html">Media</a></li>
+			         <li><a title="Openings" href="openings.html">Openings</a></li>
+			         <li><a title="Events" href="events.html">Events</a></li>
+			          </ul>
+			        </nav><!-- #nav-menu-container -->                  
+			    </div>
+			</div>
+			</header>  			<!-- EDIT ME -->
+
+
+
+
+				<!-- Start Sample Area -->
+			<section class="sample-text-area">
+				<div class="container">
+					<h3 class="text-heading">SLAM, Odometry and NeRFs</h3>
+					<p class="sample-text">
+						Obtaining 6-DoF pose and maps are pivotal in accurate navigation and surveying. We work on leveraging the latest neural rendering methods and sensor fusion approaches based on deep learning to enhance the efficacy of such systems.
+					</p>
+				</div>
+			</section>
+			<!-- End Sample Area -->
+			<!-- Start Align Area -->
+			<div class="whole-wrap">
+				<div class="container">
+					<div class="section-top-border" style="text-align: justify">											
+
+							<h3 class="mb-30">TTCDist</h3>
+							Distance estimation from vision is fundamental for a myriad of robotic applications such as navigation, manipulation and planning. Inspired by the mammal's visual system, which gazes at specific objects, we develop two novel constraints involving time-to-contact, acceleration, and distance that we call the tau-constraint and Phi-constraint which allow an active (moving) camera to estimate depth efficiently and accurately while using only a small portion of the image.<br><br>
+							
+							We successfully validate the proposed constraints with two experiments. The first applies both constraints in a trajectory estimation task with a monocular camera and an Inertial Measurement Unit (IMU). Our methods achieve 30-70% less average trajectory error, while running 25x and 6.2x faster than the popular Visual-Inertial Odometry methods VINS-Mono and ROVIO respectively. The second experiment demonstrates that when the constraints are used for feedback with efference copies the resulting closed loop system's eigenvalues are invariant to scaling of the applied control signal. We believe these results indicate the tau and Phi constraint's potential as the basis of robust and efficient algorithms for a multitude of robotic applications.<br><br>
+
+							<h3> References</h3><br>
+							<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://arxiv.org/abs/2203.07530">TTCDist: Fast Active Monocular Distance Estimation from Time-to-Contact</a></h4><br>
+								<div class="highlight-sec">
+									<h6>ICRA 2023</h6>
+								</div>			
+								<p>
+									Levi Burner, <b>Nitin J. Sanket</b>, Cornelia Fermuller, Yiannis Aloimonos, <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2023.<br><br>
+								</p>
+
+								<h6>
+									<a href="https://arxiv.org/abs/2203.07530"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a> <a href="https://prg.cs.umd.edu/TTCDist"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a>  <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a><a href="http://wpi.edu"><i class="fa fa-map-marker"></i>&nbsp;WPI&nbsp;&nbsp;</a> <br><br>
+									<!-- <a href="research/2023/ttcdist.html"><i class="fa fa-quote-right"></i>&nbsp;Cite&nbsp;&nbsp;</a>   -->
+								</h6>
+							</div>
+							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
+								<img src="img/research/2023/quikdist.png" alt="" class="img-fluid" style="border-radius: 16px;">
+							</div>
+						</div>
+						<br><br>
+						<hr>
+
+						<h3 class="mb-30">DiffPoseNet</h3>
+						Current deep neural network approaches for camera pose estimation rely on scene structure for 3D motion estimation, but this decreases the robustness and thereby makes cross-dataset generalization difficult. In contrast, classical approaches to structure from motion estimate 3D motion utilizing optical flow and then compute depth. Their accuracy, however, depends strongly on the quality of the optical flow. To avoid this issue, direct methods have been proposed, which separate 3D motion from depth estimation but compute 3D motion using only image gradients in the form of normal flow. In this paper, we introduce a network NFlowNet, for normal flow estimation which is used to enforce robust and direct constraints. In particular, normal flow is used to estimate relative camera pose based on the cheirality (depth positivity) constraint. We achieve this by formulating the optimization problem as a differentiable cheirality layer, which allows for end-to-end learning of camera pose. We perform extensive qualitative and quantitative evaluation of the proposed DiffPoseNet's sensitivity to noise and its generalization across datasets. We compare our approach to existing state-of-the-art methods on KITTI, TartanAir, and TUM-RGBD datasets.<br><br>
+
+						<h3> References</h3><br>
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://arxiv.org/abs/2203.11174">DiffPoseNet: Direct Differentiable Camera Pose Estimation</a></h4><br>
+								<div class="highlight-sec">
+									<h6>CVPR 2022</h6>
+								</div>			
+								<p>
+									Chethan M. Parameshwara, Gokul Hari, Cornelia Fermuller, <b>Nitin J. Sanket</b>, Yiannis Aloimonos, <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2022.<br><br>
+								</p>
+
+								<h6>
+									<a href="https://arxiv.org/abs/2203.11174"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a><a href="https://prg.cs.umd.edu/DiffPoseNet"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a>  <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a> <br><br>
+									<!-- <a href="research/diffposenet.html"><i class="fa fa-quote-right"></i>&nbsp;Cite&nbsp;&nbsp;</a> -->
+								</h6>
+							</div>
+							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
+								<img src="img/research/diffposenet.png" alt="" class="img-fluid" style="border-radius: 16px;">
+							</div>
+						</div>
+						<hr>
+
+
+                       <h3 class="mb-30">PRGFlow</h3>
+						Odometry on aerial robots has to be of low latency and high robustness whilst also respecting the Size, Weight, Area and Power (SWAP) constraints as demanded by the size of the robot. A combination of visual sensors coupled with Inertial Measurement Units (IMUs) has proven to be the best combination to obtain robust and low latency odometry on resource-constrained aerial robots. Recently, deep learning approaches for Visual Inertial fusion have gained momentum due to their high accuracy and robustness. However, the remarkable advantages of these techniques are their inherent scalability (adaptation to different sized aerial robots) and unification (same method works on different sized aerial robots) by utilizing compression methods and hardware acceleration, which have been lacking from previous approaches. To this end, we present a deep learning approach for visual translation estimation and loosely fuse it with an Inertial sensor for full 6 DoF odometry estimation. We also present a detailed benchmark comparing different architectures, loss functions and compression methods to enable scalability. We evaluate our network on the MSCOCO dataset and evaluate the VI fusion on multiple real-flight trajectories.<br><br>
+
+						<h3> References</h3><br>
+
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://arxiv.org/abs/2006.06753" style="font-weight: 600;"> PRGFlow: Unified SWAP‐aware deep global optical flow for aerial robot navigation</a></h4><br>
+								<div class="highlight-sec">
+									<h6>Electronic Letters 2021</h6>
+								</div>			
+								<p>
+								<b>Nitin J. Sanket</b>, Chahat Deep Singh, Cornelia Fermuller, Yiannis Aloimonos, <i>Electronics Letters</i>, 2021.<br>
+								</p>
+								<h6>
+									<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ell2.12274"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a> <a href="http://prg.cs.umd.edu/PRGFlow"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a> <a href="https://github.com/prgumd/PRGFlow"><i class="fa fa-github"></i>&nbsp;Code&nbsp;&nbsp;</a> <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a> 
+
+									<!-- <a href="research/prgflow.html"><i class="fa fa-quote-right"></i>&nbsp;Cite&nbsp;&nbsp;</a>  -->
+								</h6>
+							</div>
+							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
+								<img src="img/research/PRGFlow.png" alt="" class="img-fluid" style="border-radius: 16px;">
+							</div>
+						</div>
+						<hr>
+						
+						<h3 class="mb-30">SalientDSO</h3>
+						Although cluttered indoor scenes have a lot of useful high-level semantic information which can be used for mapping and localization, most Visual Odometry (VO) algorithms rely on the usage of geometric features such as points, lines and planes. Lately, driven by this idea, the joint optimization of semantic labels and obtaining odometry has gained popularity in the robotics community. The joint optimization is good for accurate results but is generally very slow. At the same time, in the vision community, direct and sparse approaches for VO have stricken the right balance between speed and accuracy. We merge the successes of these two communities and present a way to incorporate semantic information in the form of visual saliency to Direct Sparse Odometry - a highly successful direct sparse VO algorithm. We also present a framework to filter the visual saliency based on scene parsing. Our framework, SalientDSO, relies on the widely successful deep learning based approaches for visual saliency and scene parsing which drives the feature selection for obtaining highly-accurate and robust VO even in the presence of as few as 40 point features per frame. We provide extensive quantitative evaluation of SalientDSO on the ICL-NUIM and TUM monoVO datasets and show that we outperform DSO and ORB-SLAM - two very popular state-of-the-art approaches in the literature. We also collect and publicly release a CVL-UMD dataset which contains two indoor cluttered sequences on which we show qualitative evaluations. To our knowledge this is the first paper to use visual saliency and scene parsing to drive the feature selection in direct VO.<br><br>
+
+						<h3> References</h3><br>
+						
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://arxiv.org/abs/1803.00127" style="font-weight: 600;"> SalientDSO: Bringing Attention to Direct Sparse Odometry</a></h4><br>
+								<div class="highlight-sec">
+									<h6>T-ASE 2019</h6>
+								</div>	
+								<p>
+								<b>Nitin J. Sanket*</b>, Huai-Jen Liang*, Cornelia Fermuller, Yiannis Aloimonos, <i>IEEE Transactions on Automation Science and Engineering</i>, 2019.<br>
+								* Equal Contribution<br><br> 
+								<span style="font-weight: 600; color:#c30000"><i class="fa fa-trophy"></i>Awarded the Brin Family Prize, 2018.</span> <span style="font-weight: 600"><a href="https://aero.umd.edu/news/story/brin-family-prize-celebrates-student-innovation"> <i class="fa fa-newspaper-o"></i> News Article</a> </span>
+
+								<!-- Add text background in p tag with div -->
+								<!-- Border Radius -->
+								
+								</p>
+								<h6>
+									<a href="https://arxiv.org/abs/1803.00127"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a> <a href="http://prg.cs.umd.edu/SalientDSO"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a> <a href="https://github.com/prgumd/SalientDSO"><i class="fa fa-github"></i>&nbsp;Code&nbsp;&nbsp;</a> <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a> 
+
+									<!-- <a href="research/salientdso.html"><i class="fa fa-quote-right"></i>&nbsp;Cite&nbsp;&nbsp;</a>  -->
+								</h6>
+							</div>
+							<div class="col-lg-6 col-md-6 mt-sm-20 right-align-p">
+								<img src="img/research/salientdso.gif" alt="" class="img-fluid" style="border-radius: 16px;">
+							</div>
+						</div>
+						<br><br>
+						<hr>
+
+					</div>
+				</div>
+			</div>
+
+
+			
+
+            <!-- EDIT FOOT -->
+            	<!-- start footer Area -->
+            	            <section class="facts-area section-gap" id="facts-area"  style="background-color: rgba(255, 255, 255, 1.0); padding: 40px">
+            	                <div class="container">     
+            	                <div class="title text-center">
+            	                        <p> <a href="index.html"><img src="img/logos/1.png" width="128px" alt="" title=""></a><br><br>
+            	                            Perception and Autonomous Robotics Group <br>
+            	                            Worcester Polytechnic Institute <br>
+            	                            Copyright © 2023<br>
+            	                            <span style="font-size: 10px">Website based on <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+            	                        </p>
+            	                    </div>
+            	                </div>  
+            	            </section>  
+            	<!-- End footer Area -->            <!-- EDIT FOOT -->	
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+    		<script src="js/jquery.tabs.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>	
+            <script src="js/isotope.pkgd.min.js"></script>			
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/simple-skillbar.js"></script>							
+			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>

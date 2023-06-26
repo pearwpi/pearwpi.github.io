@@ -64,7 +64,7 @@
 			              <li><a href="research.html">Research Areas</a></li>
 			              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
 			              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
-			              <li><a href="labs.html">Research Labs And Facilities</a></li>
+			              <li><a href="labs.html">Labs/Facilities</a></li>
 			            </ul>
 			          </li> 
 			          <li><a title="Teaching" href="teaching.html">Teaching</a></li>
@@ -75,7 +75,7 @@
 			        </nav><!-- #nav-menu-container -->                  
 			    </div>
 			</div>
-			</header>  			</header>   			<!-- EDIT ME -->
+			</header>   			<!-- EDIT ME -->
 
 
 
@@ -83,7 +83,7 @@
 				<!-- Start Sample Area -->
 			<section class="sample-text-area">
 				<div class="container">
-					<h3 class="text-heading">Openings</h3>
+					<h3 class="text-heading">Research Publications</h3>
 					<p class="sample-text">
 						The following is a complete list of PeAR's scholarly publications, which touch on aerial robotics, deep learning and computer vision, among other things.<br> 
 						For more information, visit the respective authors Google Scholar pages. Here is Prof. Sanket's <a href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en&oi=ao"><b>Google Scholar page</b> <i class="fa fa-external-link"></i></a>
