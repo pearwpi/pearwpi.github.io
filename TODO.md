@@ -10,6 +10,7 @@ TODO:
 - Make Areas Page
 - Link to Publications page
 - Make Labs/Facilities Page
+- Bug fix people 767px
 
 # Alumni
 
