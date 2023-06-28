@@ -1,11 +1,8 @@
 TODO:
 - Add Custom path with ../ for inner folders
 - Add google page views (https://clustrmaps.com/)
-- Fix Nitin's website Teaching
-- Update Nitin's website research olive paper
 - Script for Making Images exactly 3:1
 - Update Events
-- Make Labs/Facilities Page
 
 # Alumni
 
