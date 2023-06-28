@@ -933,6 +933,11 @@ pre code {
     flex: 0 0 25%;
     max-width: 25%;
   }
+  .col-sm-25 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 5%;
+  }
   .col-sm-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
