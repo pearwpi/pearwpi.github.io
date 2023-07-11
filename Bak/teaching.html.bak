@@ -48,7 +48,7 @@
 			    <div class="row align-items-center justify-content-between d-flex"> 
 			      <!--  style="margin-left: -36vh; margin-right: -36vh" -->
 			      <div id="logo">
-			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/1.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
+			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/LogoWhiteRed.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -58,7 +58,7 @@
 			              <li><a href="research.html">Research Areas</a></li>
 			              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
 			              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
-			              <li><a href="labs.html">Labs/Facilities</a></li>
+			              <li><a href="labs.html">Research Labs And Facilities</a></li>
 			            </ul>
 			          </li> 
 			          <li><a title="Teaching" href="teaching.html">Teaching</a></li>
@@ -69,7 +69,7 @@
 			        </nav><!-- #nav-menu-container -->                  
 			    </div>
 			</div>
-			</header>   			<!-- EDIT ME -->
+			</header>  			</header>  			</header>   			<!-- EDIT ME -->
 
 
 			<!-- Start home-about Area -->

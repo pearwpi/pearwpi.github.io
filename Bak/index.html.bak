@@ -48,7 +48,7 @@
 			    <div class="row align-items-center justify-content-between d-flex"> 
 			      <!--  style="margin-left: -36vh; margin-right: -36vh" -->
 			      <div id="logo">
-			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/1.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
+			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/LogoWhiteRed.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -69,8 +69,7 @@
 			        </nav><!-- #nav-menu-container -->                  
 			    </div>
 			</div>
-			</header>   			
-			<!-- EDIT ME -->
+			</header>  			<!-- EDIT ME -->
 			
 		  
 			<!-- start banner Area -->
@@ -148,8 +147,8 @@
 								Welcome to the Perception and Autonomous Robotics Group (PeAR)'s website. PeAR is led by <a href="https://nitinjsanket.github.io/">Prof. Nitin J. Sanket</a>. Our lab was founded in 2022 and our home is the <a href="https://www.wpi.edu/academics/departments/robotics-engineering">Robotics Engineering Department</a> at <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. <br><br>
 
 								Our mission is to tackle fundamental problems in robot perception and autonomy to enable better life. We work on pushing the boundaries of autonomy at extreme resource constrained tiny robots using only on-board computation and sensing. In-particular we work on navigation of nano-drones (and other robots) using only cameras and inertial sensors and onboard computation without the need for external infrastructure such as GPS or motion capture systems. We call our approach to autonomy as <b>Minimal-AI</b> due to the nature of its design and its efficiency in solving the desired tasks. We utilize concepts from Active Perception, Interactive Perception, Passive and Novel computing and Deep Compression.
-							</p>
-
+							</p><br><br>
+							<p style="font-size: 64px" class="black-links"><a title="Email" href="https://mailhide.io/e/7anJau8i" onclick="popup=window.open('https://mailhide.io/e/7anJau8i','mailhidepopup','width=580,height=635'); return false;"><i  class="fa fa-envelope"></i></a> <a title="YouTube" href=""><i class="fa fa-youtube"></i></a> <a title="Github" href="https://github.com/pearwpi"><i class="fa fa-github"></i></a> <a title="Location" href="https://goo.gl/maps/UwqDUtkcUajYxG2VA"><i class="fa fa-map-marker"></i></a></p>
 
 
 							
@@ -172,10 +171,10 @@
 		                    </div>
 		                </div>
 		            </div>
-                   	
-                   	 <div class="row grid">
+
+		            <div class="row" >
                    		<!-- Prof. Nitin J. Sanket -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all vector" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -197,7 +196,7 @@
 
 
                             <!-- Deepak Singh -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -219,7 +218,7 @@
 
 
                             <!-- Manoj Velmurugan -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -242,7 +241,7 @@
 
 
                             <!-- Sai Ramana Kiran -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -266,7 +265,7 @@
                             
 
                              <!-- Shounak Naik -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -288,7 +287,7 @@
                             </div>
 
                             <!-- Tript Sharma -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -310,7 +309,7 @@
                             </div>
 
                             <!-- Mandeep Singh -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -332,7 +331,7 @@
                             </div>
 
                             <!-- Siyuan Huang Oliver -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -356,7 +355,7 @@
 
 
                             <!-- Rishabh Singh -->
-                            <div class="single-portfolio col-sm-2 all vector" style="padding: 30px">
+                            <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
                             	<div class="relative">
 	                            	<div class="thumb">
 	                            		<div class="overlay overlay-bg" style="border-radius: 50%"></div>
@@ -376,7 +375,15 @@
 									<div class="cat" style="text-transform: uppercase">Masters Student</div>
 								</div>					                               
                             </div>
-                    
+
+
+
+
+                        </div>
+                    </div>
+		          
+                   	
+                   	                     
                 </div>
                 <br><br>
                 <div class="title text-center">
@@ -415,7 +422,7 @@
 			<section class="facts-area section-gap" id="facts-area"  style="background-color: rgba(245, 245, 245, 1); padding: 40px">
 				<div class="container">		
 				<div class="title text-center">
-						<p style="font-size: 64px" class="black-links"><a title="Email" href="https://mailhide.io/e/7anJau8i" onclick="popup=window.open('https://mailhide.io/e/7anJau8i','mailhidepopup','width=580,height=635'); return false;"><i  class="fa fa-envelope"></i></a> <a title="YouTube" href=""><i class="fa fa-youtube"></i></a> <a title="Github" href="https://github.com/pearwpi"><i class="fa fa-github"></i></a> <a title="Location" href="https://github.com/pearwpi"><i class="fa fa-map-marker"></i></a></p>
+						<p style="font-size: 64px" class="black-links"><a title="Email" href="https://mailhide.io/e/7anJau8i" onclick="popup=window.open('https://mailhide.io/e/7anJau8i','mailhidepopup','width=580,height=635'); return false;"><i  class="fa fa-envelope"></i></a> <a title="YouTube" href=""><i class="fa fa-youtube"></i></a> <a title="Github" href="https://github.com/pearwpi"><i class="fa fa-github"></i></a> <a title="Location" href="https://goo.gl/maps/UwqDUtkcUajYxG2VA"><i class="fa fa-map-marker"></i></a></p>
 					</div>
 				</div>	
 			</section>		

@@ -16,6 +16,7 @@
 		<!-- Site Title -->
 		<title>PeAR WPI</title>
 		<!-- Site Title -->
+		<!-- Site Title -->
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -30,105 +31,221 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">			
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171009851-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+			<link href="css/icofont/icofont.min.css" rel="stylesheet">
+		    <link href="css/remixicon/remixicon.css" rel="stylesheet">
+		    <link href="css/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+		    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+		    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		    <!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171009851-1"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
 
-              gtag('config', 'UA-171009851-1');
-            </script>
+			  gtag('config', 'UA-171009851-1');
+			</script>
 		</head>
 		<body>	
-        <!-- EDIT ME -->
-        	<header id="header">
-        	<div class="container main-menu">
-        	    <div class="row align-items-center justify-content-between d-flex"> 
-        	      <!--  style="margin-left: -36vh; margin-right: -36vh" -->
-        	      <div id="logo">
-        	        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/1.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
-        	      </div>
-        	      <nav id="nav-menu-container">
-        	        <ul class="nav-menu">
-        	          <li><a title="Home" href="index.html" style="position: relative; top: -4px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
-        	          <li class="menu-has-children"><a title="Research" href="research.html">Research</a>
-        	            <ul>
-        	              <li><a href="research.html">Research Areas</a></li>
-        	              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
-        	              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
-        	              <li><a href="labs.html">Labs/Facilities</a></li>
-        	            </ul>
-        	          </li> 
-        	          <li><a title="Teaching" href="teaching.html">Teaching</a></li>
-        	         <li><a title="Media" href="media.html">Media</a></li>
-        	         <li><a title="Openings" href="openings.html">Openings</a></li>
-        	         <li><a title="Events" href="events.html">Events</a></li>
-        	          </ul>
-        	        </nav><!-- #nav-menu-container -->                  
-        	    </div>
-        	</div>
-        	</header> 
-        	<!-- End footer Area -->         
-        	<!-- EDIT ME -->
+		<!-- EDIT ME -->
+			<header id="header">
+			<div class="container main-menu">
+			    <div class="row align-items-center justify-content-between d-flex"> 
+			      <!--  style="margin-left: -36vh; margin-right: -36vh" -->
+			      <div id="logo">
+			        <a href="index.html" style="font-size: 24px; font-weight: 800"><img src="img/logos/LogoWhiteRed.png" width="48px" alt="" title=""> Perception and Autonomous Robotics Group</a>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li><a title="Home" href="index.html" style="position: relative; top: -4px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
+			          <li class="menu-has-children"><a title="Research" href="research.html">Research</a>
+			            <ul>
+			              <li><a href="research.html">Research Areas</a></li>
+			              <!-- <li><a href="softwares.html">Softwares/Datasets</a></li> -->
+			              <li><a href="publications.html">Publications/Softwares/Datasets</a></li>
+			              <li><a href="labs.html">Research Labs And Facilities</a></li>
+			            </ul>
+			          </li> 
+			          <li><a title="Teaching" href="teaching.html">Teaching</a></li>
+			         <li><a title="Media" href="media.html">Media</a></li>
+			         <li><a title="Openings" href="openings.html">Openings</a></li>
+			         <li><a title="Events" href="events.html">Events</a></li>
+			          </ul>
+			        </nav><!-- #nav-menu-container -->                  
+			    </div>
+			</div>
+			</header>  			</header>  			</header>   			<!-- EDIT ME -->
 
-          <!-- Start home-about Area -->
+
+
+
+				<!-- Start Sample Area -->
 			<section class="sample-text-area">
 				<div class="container">
-					<div class="menu-content">
-                    <div class="title text-center">
-                        <h1 class="mb-10">Services</h1>
-                    </div>
-                </div>
+					<h3 class="text-heading">Media Coverage</h3>
+					<p class="sample-text">
+						The following is list of Media coverage for our research work over the years.
+					</p>
 				</div>
 			</section>
-
-		  <section class="sample-text-area", style="padding-top: 10px">
-				<div class="whole-wrap">
+			<!-- End Sample Area -->
+			<!-- Start Align Area -->
+			<div class="whole-wrap">
 				<div class="container">
-					<div class="col-md-10 mt-sm-20 left-align-p">
-								<div class="">
-									<hr>
-									<h4> Editor </h4><br>
-									<ul class="unordered-list">
-										<li> npj Robotics Associate Editor - Nature npj Robotics - 2022-Current </li>
-										<li> RA-L Associate Editor - IEEE Robotics and Automation Letters - 2022-Current </li>
-									</ul>
-						</div>
+					<div class="section-top-border">
 
-							<!-- <div class="col-md-10 mt-sm-20 left-align-p"> -->
-								<div class="">
-									<hr>
-									<h4> Workshops </h4><br>
-									<ul class="unordered-list">
-										<li> MED22 - Program Co-chair for Mediterranean Conference On Control And Automation Workshop: Active Methods In Autonomous Navigation - 2022 </li>
-									</ul>
+
+						<div class="rowunmod">
+						<h3>2021</h3>
+						</div>
+						<hr><br><br>
+
+						<h3 class="mb-30">Pollination Using Bee-Quadrotors</h3>
+						<img src="img/research/thesis.png" alt="" class="img-fluid" style="border-radius: 16px; width: 30vw"><br><br>
+
+						<a href="https://www.youtube.com/watch?v=ed3jg-xQfPw"><img src="img/logos/BBC_Earth_Lab.png" width="64px" alt="" class="img-fluid"> Are Robot Bees The Future? | Planet Fix | BBC Earth Lab</a> <br><br>
+						<a href="https://www.voanews.com/a/episode_worlds-smallest-drones-could-revolutionize-agriculture-search-and-rescue-efforts-4765706/6117930.html"><img src="img/logos/VOA.png" width="100px" alt="" class="img-fluid"> LogOn: World’s Smallest Drones Could Revolutionize Agriculture, Search and Rescue Efforts</a> <br><br>
+						<a href="https://today.umd.edu/computer-scientist-creates-hive-ideas-drones-83562028-be87-45c7-84ed-1f508ee00f20"><img src="img/logos/MarylandToday.png" width="200px" alt="" class="img-fluid"> Computer Scientist Creates Hive of Ideas for Drones</a><br><br>
+						<a href="https://dronedj.com/2021/08/04/drones-pollination-bees/"><img src="img/logos/DroneDJ.png" width="140px" alt="" class="img-fluid">This tiny drone can pollinate crops to help overworked bees</a><br><br>
+						<a href="https://www.youtube.com/watch?v=haZG_Xs5LOM&feature=youtu.be"><img src="img/logos/EnterpriseUMD.png" width="100px" alt="" class="img-fluid"> Busy as Robotic Bees | Enterprise Research Stories</a> <br><br>
+
+						<a href="https://spectrum.ieee.org/video-friday-liquid-metal-bubble-actuator"><img src="img/logos/IEEESpectrum.png" width="100px" alt="" class="img-fluid"> AI-Powered Robotic Bees: A Journey Into The Mind And Body!</a> <br><br>
+
+						<a href="https://spectrum.ieee.org/video-friday-liquid-metal-bubble-actuator"><img src="img/logos/IEEESpectrum.png" width="100px" alt="" class="img-fluid"> Busy as Robotic Bees </a> <br><br>
+
+						<span style="font-weight: 600; color:#c30000"><i class="fa fa-trophy"></i>Awarded the Larry S. Davis Award for Best Computer Science PhD Thesis at University of Maryland, 2021.</span> <span style="font-weight: 600"><a href="https://www.cs.umd.edu/article/2021/10/two-former-graduate-students-receive-larry-s-davis-doctoral-dissertation-award"> <i class="fa fa-newspaper-o"></i> News Article</a> </span><br><br>
+						<span style="font-weight: 600; color:#c30000"><i class="fa fa-trophy"></i>Awarded the MDPI Drones 2021 PhD Thesis Award for a highly anticipated academic thesis that shows great potential, 2021.</span> <span style="font-weight: 600"><a href="https://www.mdpi.com/journal/drones/awards"> <i class="fa fa-newspaper-o"></i> News Article</a> </span><br><br> 
+
+						<h3> References </h3><br>
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://drum.lib.umd.edu/handle/1903/27925">Active Vision Based Embodied-AI Design For Nano-UAV Autonomy</a></h4><br>
+								<div class="highlight-sec">
+									<h6>Doctoral dissertation</h6>
+								</div>			
+								<p>
+									<b>Nitin J. Sanket</b>, <i>Doctoral dissertation</i>, 2021.<br><br> 
+								</p>
 						</div>
 					</div>
-
-					<div class="col-md-10 mt-sm-20 left-align-p">
-								<div class="">
-									<hr>
-									<h4> Peer Review </h4><br>
-									<ul class="unordered-list">
-										<li> Science – Science Robotics – 2021-Current </li>
-										<li> RA-L – IEEE Robotics and Automation Letters – 2018-Current </li>
-										<li> ICRA – IEEE International Conference on Robotics and Automation – 2017-Current </li>
-										<li> IROS – IEEE International Conference on Intelligent Robots and Systems – 2017-Current </li>
-										<li> CVPR – IEEE International Conference on Computer Vision and Pattern Recognition – 2017-Current </li>
-										<li> RSS – Robotics: Science & Systems – 2017-Current </li>
-										<li> IMAVIS – Elsevier's Image and Vision Computing Journal – 2017-2019 </li>
-										<li> CVIU – Elsevier's Computer Vision and Image Understanding Journal – 2017-2019 </li>
-										<li> ICCV – IEEE International Conference on Computer Vision – 2017-2018 </li>
-									</ul>
-						</div>
 						<hr>
+
+						
+
+<!-- 					<div class="section-top-border"> -->
+                        <h3 class="mb-30">MorphEyes</h3>
+                        <img src="img/research/morpheyes.png" alt="" class="img-fluid" style="border-radius: 16px; width: 30vw"><br><br>
+                        <a href="https://www.crowdsupply.com/stereopi/stereopi/updates/stereopi-powered-drones-and-the-stereopi-v2"><img src="img/logos/CrowdSupply.png" width="200px" alt="" class="img-fluid"> StereoPi-powered drones and... the StereoPi v2!</a><br><br>
+                        <img src="img/logos/MRC.png" width="200px" alt="" class="img-fluid"> MorphEyes gives movable eyes to a drone<br><br>
+
+                        <h3> References </h3><br>
+                        <div class="rowunmod">
+                            <div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+                                <h4><a href="https://arxiv.org/abs/2011.03077" style="font-weight: 600;"> MorphEyes: Variable Baseline Stereo For Quadrotor Navigation</a></h4><br>
+                                <div class="highlight-sec">
+                                    <h6>ICRA 2021</h6>
+                                </div>          
+                                <p>
+                                <b>Nitin J. Sanket</b>, Chahat Deep Singh, Varun Asthana, Cornelia Fermuller, Yiannis Aloimonos, <i>IEEE International Conference on Robotics and Automation (ICRA) </i>, 2021.<br>
+                                </p>
+                                <h6>
+                                    <a href="https://arxiv.org/abs/2011.03077"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a> <a href="http://prg.cs.umd.edu/MorphEyes"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a> <a href="https://github.com/prgumd/MorphEyes"><i class="fa fa-github"></i>&nbsp;Code&nbsp;&nbsp;</a> <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a>   <br><br>
+                                </h6>
+                            </div>
+                        </div>
+                        <hr>
+
+						<div class="rowunmod">
+						<h3>2020</h3>
+						</div>
+						<hr><br><br>
+						
+						<h3 class="mb-30">EVDodgeNet</h3>
+						<img src="img/research/EVDodgeNet.gif" alt="" class="img-fluid" style="border-radius: 16px;  width: 30vw"><br><br>
+
+						<a href="https://mashable.com/video/drone-uses-ai-to-dodge-objects-thrown-at-it/"><img src="img/logos/Mashable.png" width="140px" alt="" class="img-fluid"> This drone relies on AI to dodge objects thrown at it</a><br><br>
+
+						<a href="https://futurism.com/the-byte/watch-drones-dodge-stuff-thrown"><img src="img/logos/Futurism.png" width="140px" alt="" class="img-fluid"> Watch This Drone Expertly Dodge Stuff Thrown at it</a><br><br>
+
+						<a href="https://venturebeat.com/ai/ai-helps-drones-dodge-fast-moving-objects/"><img src="img/logos/venturebeat.png" width="140px" alt="" class="img-fluid"> AI helps drones dodge fast-moving objects</a><br><br>
+
+						<h3> References </h3><br>
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://arxiv.org/abs/1906.02919" style="font-weight: 600;"> EVDodgeNet: Deep Dynamic Obstacle Dodging with Event Cameras</a></h4><br>
+								<div class="highlight-sec">
+									<h6>ICRA 2020</h6>
+								</div>	
+								<p>
+								<b>Nitin J. Sanket*</b>, Chethan M. Parameshwara*, Chahat Deep Singh, Ashwin V. Kuruttukulam, Cornelia Fermuller, Davide Scaramuzza, Yiannis Aloimonos, <i>IEEE International Confernce on Robotics and Automation</i>, Paris, 2020.<br>
+								* Equal Contribution
+
+								<!-- Add text background in p tag with div -->
+								
+								</p>
+								<h6>
+									<a href="https://arxiv.org/abs/1906.02919"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a> <a href="http://prg.cs.umd.edu/EVDodgeNet"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a> <a href="https://github.com/prgumd/EVDodgeNet"><i class="fa fa-github"></i>&nbsp;Code&nbsp;&nbsp;</a> <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a>  <br><br>
+								</h6>
+							</div>
+						</div>
+						<br><br>
+						<hr>
+
+						
+						<div class="rowunmod">
+						<h3>2018</h3>
+						</div>
+						<hr><br><br>
+
+
+						<h3 class="mb-30">GapFlyt</h3>
+						<img src="img/research/gapflyt.gif" alt="" class="img-fluid" style="border-radius: 16px; width: 30vw"><br><br>
+
+						<a href="https://spectrum.ieee.org/automaton/robotics/drones/insectinspired-vision-system-helps-drones-pass-through-small-gaps"><img src="img/logos/IEEESpectrum.png" width="140px" alt="" class="img-fluid"> Insect-Inspired Vision System Helps Drones Pass Through Small Gaps</a> <br><br>
+
+						<a href="https://techcrunch.com/2018/09/12/new-techniques-teach-drones-to-fly-through-small-holes/"><img src="img/logos/TechCrunch.png" width="160px" alt="" class="img-fluid"></a> <br><br>
+
+						<a href="https://news.developer.nvidia.com/insect-inspired-drone-uses-ai-to-fly-through-narrow-gaps/"><img src="img/logos/NVIDIA.png" width="60px" alt="" class="img-fluid"> New techniques teach drones to fly through small holes</a> <br><br>
+
+
+						<a href="https://technologynewsupdate.com/new-techniques-teach-drones-to-fly-through-small-holes/"><img src="img/logos/TechNewsUpdate.png" width="200px" alt="" class="img-fluid"> New techniques teach drones to fly through small holes</a> <br><br>
+
+						<span style="font-weight: 600; color:#c30000"><i class="fa fa-trophy"></i>Awarded the Brin Family Prize, 2018.</span> <span style="font-weight: 600"><a href="https://aero.umd.edu/news/story/brin-family-prize-celebrates-student-innovation"> <i class="fa fa-newspaper-o"></i> News Article</a> </span><br><br>
+
+
+						 and <a href="http://prg.cs.umd.edu/media">many more</a><br><br>
+
+
+						<h3> References </h3><br>
+						<div class="rowunmod">
+							<div class="col-lg-6 col-md-6 mt-sm-20 left-align-p" style="padding-left:0; padding-right:0">
+								<h4><a href="https://arxiv.org/abs/1802.05330" style="font-weight: 600;"> GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight</a></h4><br>
+								<div class="highlight-sec">
+									<h6>RA-L 2018 | IROS 2018</h6>
+								</div>	
+								<p>
+								<b>Nitin J. Sanket*</b>, Chahat Deep Singh*, Kanishka Ganguly, Cornelia Fermuller, Yiannis Aloimonos, <i>IEEE Robotics and Automation Letters</i>, 2018.<br>
+								* Equal Contribution<br><br> 
+								
+								</p>
+								<h6>
+									<a href="https://arxiv.org/abs/1802.05330"><i class="fa fa-file-text-o"></i>&nbsp;Paper&nbsp;&nbsp;</a> <a href="http://prg.cs.umd.edu/GapFlyt"><i class="fa fa-globe"></i>&nbsp;Project Page&nbsp;&nbsp;</a> <a href="https://github.com/prgumd/GapFlyt"><i class="fa fa-github"></i>&nbsp;Code&nbsp;&nbsp;</a> <a href="http://umd.edu"><i class="fa fa-map-marker"></i>&nbsp;UMD&nbsp;&nbsp;</a> <br><br>
+								</h6>
+							</div>
+						</div>
+						<br><br>
+						<hr>
+
+						
+
 					</div>
 				</div>
 			</div>
-			</section>
 
-		  
+
+			
+
             <!-- EDIT FOOT -->
             	<!-- start footer Area -->
             	            <section class="facts-area section-gap" id="facts-area"  style="background-color: rgba(255, 255, 255, 1.0); padding: 40px">
