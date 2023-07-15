@@ -280,7 +280,7 @@
             	            <section class="facts-area section-gap" id="facts-area"  style="background-color: rgba(255, 255, 255, 1.0); padding: 40px">
             	                <div class="container">     
             	                <div class="title text-center">
-            	                        <p> <a href="index.html"><img src="img/logos/1.png" width="128px" alt="" title=""></a><br><br>
+            	                        <p> <a href="index.html"><img src="img/logos/LogoBlackRed.png" width="128px" alt="" title=""></a><br><br>
             	                            Perception and Autonomous Robotics Group <br>
             	                            Worcester Polytechnic Institute <br>
             	                            Copyright © 2023<br>
@@ -289,7 +289,7 @@
             	                    </div>
             	                </div>  
             	            </section>  
-            	<!-- End footer Area -->            <!-- EDIT FOOT -->	
+            	<!-- End footer Area -->            	<!-- End footer Area -->            <!-- EDIT FOOT -->	
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/popper.min.js"></script>

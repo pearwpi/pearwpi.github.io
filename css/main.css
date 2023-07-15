@@ -2387,7 +2387,7 @@ color: var(--linkhover);
   font-weight: 900;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1470px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -3088,7 +3088,7 @@ color: var(--linkhover);
 }
 
 .single-portfolio:hover .thumb .overlay-bg {
-  opacity: .85;
+  opacity: .92;
 }
 
 .thumb .overlay-bg {
